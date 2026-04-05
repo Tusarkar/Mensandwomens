@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Loom &amp; Line — Curated Apparel</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body class="page-single page-light">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="logo" href="#home">Loom <span class="logo-amp">&amp;</span> Line</a>
+    <nav class="nav-main" aria-label="Primary">
+      <a href="#home">Home</a>
+      <a href="#new">New</a>
+      <a href="#mens">Men</a>
+      <a href="#womens">Women</a>
+      <a href="#lookbook">Lookbook</a>
+      <a href="#about">About</a>
+      <a href="#size">Size</a>
+      <a href="#contact">Contact</a>
+      <a href="#shipping">Shipping</a>
+    </nav>
+    <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="mobile-panel" aria-label="Open menu"></button>
+  </header>
+  <div class="mobile-panel" id="mobile-panel" hidden>
+    <nav aria-label="Mobile">
+      <a href="#home">Home</a>
+      <a href="#new">New arrivals</a>
+      <a href="#mens">Men</a>
+      <a href="#womens">Women</a>
+      <a href="#lookbook">Lookbook</a>
+      <a href="#about">About</a>
+      <a href="#size">Size guide</a>
+      <a href="#contact">Contact</a>
+      <a href="#shipping">Shipping</a>
+    </nav>
+  </div>
+
+  <main id="main">
+    <section id="home" class="simple-home reveal" aria-label="Intro">
+      <h1 class="simple-home__title">Loom &amp; Line</h1>
+      <p class="simple-home__tag">Men’s first, then women’s — scroll or use the menu.</p>
+    </section>
+
+    <section id="new" class="section-block page-home" aria-labelledby="new-heading">
+      <div class="section-block__inner">
+        <h2 id="new-heading" class="section-block__title">New arrivals</h2>
+        <p class="section-block__lede">Fresh drops this week — limited runs.</p>
+        <div class="mini-grid">
+          <a href="#mens" class="mini-card reveal">
+            <img src="https://images.unsplash.com/photo-1591047139829-d91aecb6caea?auto=format&amp;fit=crop&amp;w=560&amp;h=680&amp;q=80" alt="Men’s outerwear" width="280" height="340" loading="lazy" decoding="async" />
+            <span class="mini-card__label">Men · Outer</span>
+          </a>
+          <a href="#womens" class="mini-card reveal">
+            <img src="https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?auto=format&amp;fit=crop&amp;w=560&amp;h=680&amp;q=80" alt="Women’s knit" width="280" height="340" loading="lazy" decoding="async" />
+            <span class="mini-card__label">Women · Knit</span>
+          </a>
+          <a href="#womens" class="mini-card reveal">
+            <img src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&amp;fit=crop&amp;w=560&amp;h=680&amp;q=80" alt="Women’s dress" width="280" height="340" loading="lazy" decoding="async" />
+            <span class="mini-card__label">Women · Dress</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="mens" class="page-mens" aria-label="Men’s collection">
+      <div class="page-hero page-hero--mens">
+        <div class="page-hero__grid">
+          <div class="page-hero__text">
+            <p class="eyebrow">Men’s edit · SS26</p>
+            <h2 class="page-title">Cut for motion</h2>
+            <p class="lede">Layered neutrals, weight you can feel, lines that hold their own in a crowd — or an empty room.</p>
+          </div>
+          <div class="page-hero__visual">
+            <img class="page-hero__img" src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&amp;fit=crop&amp;w=720&amp;h=900&amp;q=80" alt="Men’s tailoring" width="480" height="600" loading="lazy" decoding="async" />
+          </div>
+        </div>
+      </div>
+
+      <div class="sticky-bar">
+        <div class="sticky-bar__inner">
+          <span class="sticky-bar__label">Filter</span>
+          <div class="chips">
+            <button type="button" class="chip is-active" data-filter="all">All</button>
+            <button type="button" class="chip" data-filter="outer">Outer</button>
+            <button type="button" class="chip" data-filter="knit">Knit</button>
+            <button type="button" class="chip" data-filter="tailored">Tailored</button>
+          </div>
+        </div>
+      </div>
+
+      <section class="product-grid" aria-label="Men’s pieces">
+        <article class="product-card reveal" data-category="outer">
+          <div class="product-card__media">
+            <img src="https://images.unsplash.com/photo-1591047139829-d91aecb6caea?auto=format&amp;fit=crop&amp;w=800&amp;h=960&amp;q=80" alt="Brushed wool overcoat" width="400" height="480" loading="lazy" decoding="async" />
+          </div>
+          <div class="product-card__body">
+            <h3 class="product-name">Brushed wool overcoat</h3>
+            <p class="product-meta">Charcoal · Italian cloth</p>
+            <p class="product-price">₹1,459</p>
+          </div>
+        </article>
+        <article class="product-card reveal" data-category="tailored">
+          <div class="product-card__media">
+            <img src="https://images.unsplash.com/photo-1594938291221-94f18cbb5660?auto=format&amp;fit=crop&amp;w=800&amp;h=960&amp;q=80" alt="Pleated wool trouser" width="400" height="480" loading="lazy" decoding="async" />
+          </div>
+          <div class="product-card__body">
+            <h3 class="product-name">Pleated wool trouser</h3>
+            <p class="product-meta">Midnight · high rise</p>
+            <p class="product-price">₹1,249</p>
+          </div>
+        </article>
+        <article class="product-card reveal" data-category="knit">
+          <div class="product-card__media">
+            <img src="https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&amp;fit=crop&amp;w=800&amp;h=960&amp;q=80" alt="Ribbed merino crew" width="400" height="480" loading="lazy" decoding="async" />
+          </div>
+          <div class="product-card__body">
+            <h3 class="product-name">Ribbed merino crew</h3>
+            <p class="product-meta">Oat · seamless shoulder</p>
+            <p class="product-price">₹1,099</p>
+          </div>
+        </article>
+        <article class="product-card reveal" data-category="outer">
+          <div class="product-card__media">
+            <img src="https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&amp;fit=crop&amp;w=800&amp;h=960&amp;q=80" alt="Waxed field jacket" width="400" height="480" loading="lazy" decoding="async" />
+          </div>
+          <div class="product-card__body">
+            <h3 class="product-name">Waxed field jacket</h3>
+            <p class="product-meta">Olive · brass hardware</p>
+            <p class="product-price">₹1,399</p>
+          </div>
+        </article>
+        <article class="product-card reveal" data-category="tailored">
+          <div class="product-card__media">
+            <img src="https://images.unsplash.com/photo-1617127365659-c47fa864d8bc?auto=format&amp;fit=crop&amp;w=800&amp;h=960&amp;q=80" alt="Double-breasted blazer" width="400" height="480" loading="lazy" decoding="async" />
+          </div>
+          <div class="product-card__body">
+            <h3 class="product-name">Double-breasted blazer</h3>
+            <p class="product-meta">Navy pinstripe · soft shoulder</p>
+            <p class="product-price">₹1,329</p>
+          </div>
+        </article>
+        <article class="product-card reveal" data-category="knit">
+          <div class="product-card__media">
+            <img src="https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?auto=format&amp;fit=crop&amp;w=800&amp;h=960&amp;q=80" alt="Cashmere zip hoodie" width="400" height="480" loading="lazy" decoding="async" />
+          </div>
+          <div class="product-card__body">
+            <h3 class="product-name">Cashmere zip hoodie</h3>
+            <p class="product-meta">Smoke · matte zip</p>
+            <p class="product-price">₹1,179</p>
+          </div>
+        </article>
+      </section>
+
+      <div class="quote-block reveal">
+        <blockquote>
+          <p>“Good menswear whispers. It doesn’t need a logo to be recognized across the street.”</p>
+          <cite>— In-house line notes</cite>
+        </blockquote>
+      </div>
+    </section>
+
+    <section id="womens" class="page-womens" aria-label="Women’s collection">
+      <div class="page-hero page-hero--womens">
+        <div class="page-hero__grid page-hero__grid--reverse">
+          <div class="page-hero__visual">
+            <img class="page-hero__img" src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&amp;fit=crop&amp;w=720&amp;h=900&amp;q=80" alt="Women’s fashion" width="480" height="600" loading="lazy" decoding="async" />
+          </div>
+          <div class="page-hero__text">
+            <p class="eyebrow">Women’s edit · SS26</p>
+            <h2 class="page-title">Drape &amp; daylight</h2>
+            <p class="lede">Pieces that catch the sun at the hem and hold a silhouette without shouting — linen, silk, and cotton in conversation.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="sticky-bar sticky-bar--womens">
+        <div class="sticky-bar__inner">
+          <span class="sticky-bar__label">Filter</span>
+          <div class="chips">
+            <button type="button" class="chip is-active" data-filter="all">All</button>
+            <button type="button" class="chip" data-filter="dress">Dress</button>
+            <button type="button" class="chip" data-filter="knit">Knit</button>
+            <button type="button" class="chip" data-filter="outer">Outer</button>
+          </div>
+        </div>
+      </div>
+
+      <section class="product-grid product-grid--womens" aria-label="Women’s pieces">
+        <article class="product-card reveal" data-category="dress">
+          <div class="product-card__media">
+            <img src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&amp;fit=crop&amp;w=800&amp;h=960&amp;q=80" alt="Bias-cut slip dress" width="400" height="480" loading="lazy" decoding="async" />
+          </div>
+          <div class="product-card__body">
+            <h3 class="product-name">Bias-cut slip dress</h3>
+            <p class="product-meta">Champagne silk · midi</p>
+            <p class="product-price">₹1,429</p>
+          </div>
+        </article>
+        <article class="product-card reveal" data-category="outer">
+          <div class="product-card__media">
+            <img src="https://images.unsplash.com/photo-1539533018447-63fcce2678e3?auto=format&amp;fit=crop&amp;w=800&amp;h=960&amp;q=80" alt="Linen trench" width="400" height="480" loading="lazy" decoding="async" />
+          </div>
+          <div class="product-card__body">
+            <h3 class="product-name">Linen trench</h3>
+            <p class="product-meta">Sand · storm collar</p>
+            <p class="product-price">₹1,499</p>
+          </div>
+        </article>
+        <article class="product-card reveal" data-category="knit">
+          <div class="product-card__media">
+            <img src="https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?auto=format&amp;fit=crop&amp;w=800&amp;h=960&amp;q=80" alt="Open-knit cardigan" width="400" height="480" loading="lazy" decoding="async" />
+          </div>
+          <div class="product-card__body">
+            <h3 class="product-name">Open-knit cardigan</h3>
+            <p class="product-meta">Ivory · horn buttons</p>
+            <p class="product-price">₹1,189</p>
+          </div>
+        </article>
+        <article class="product-card reveal" data-category="dress">
+          <div class="product-card__media">
+            <img src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&amp;fit=crop&amp;w=800&amp;h=960&amp;q=80" alt="Pleated poplin shirt dress" width="400" height="480" loading="lazy" decoding="async" />
+          </div>
+          <div class="product-card__body">
+            <h3 class="product-name">Pleated poplin shirt dress</h3>
+            <p class="product-meta">Stripe · belted</p>
+            <p class="product-price">₹1,259</p>
+          </div>
+        </article>
+        <article class="product-card reveal" data-category="knit">
+          <div class="product-card__media">
+            <img src="https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?auto=format&amp;fit=crop&amp;w=800&amp;h=960&amp;q=80" alt="Fine-gauge turtleneck" width="400" height="480" loading="lazy" decoding="async" />
+          </div>
+          <div class="product-card__body">
+            <h3 class="product-name">Fine-gauge turtleneck</h3>
+            <p class="product-meta">Bordeaux · second skin</p>
+            <p class="product-price">₹1,139</p>
+          </div>
+        </article>
+        <article class="product-card reveal" data-category="outer">
+          <div class="product-card__media">
+            <img src="https://images.unsplash.com/photo-1581044777550-4cfa60707c03?auto=format&amp;fit=crop&amp;w=800&amp;h=960&amp;q=80" alt="Cropped bouclé jacket" width="400" height="480" loading="lazy" decoding="async" />
+          </div>
+          <div class="product-card__body">
+            <h3 class="product-name">Cropped bouclé jacket</h3>
+            <p class="product-meta">Pearl · raw hem</p>
+            <p class="product-price">₹1,369</p>
+          </div>
+        </article>
+      </section>
+
+      <div class="quote-block quote-block--womens reveal">
+        <blockquote>
+          <p>“We design for the walk between meetings and the slow coffee on Sunday — the same garment, different light.”</p>
+          <cite>— Studio journal</cite>
+        </blockquote>
+      </div>
+    </section>
+
+    <section id="lookbook" class="section-block page-home" aria-labelledby="lookbook-heading">
+      <div class="section-block__inner">
+        <h2 id="lookbook-heading" class="section-block__title">Lookbook</h2>
+        <p class="section-block__lede">Styling notes from the last shoot.</p>
+        <div class="lookbook-row">
+          <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&amp;fit=crop&amp;w=800&amp;h=1040&amp;q=80" alt="Fashion lookbook" width="400" height="520" loading="lazy" decoding="async" />
+          <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&amp;fit=crop&amp;w=800&amp;h=1040&amp;q=80" alt="Fashion lookbook" width="400" height="520" loading="lazy" decoding="async" />
+          <img src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?auto=format&amp;fit=crop&amp;w=800&amp;h=1040&amp;q=80" alt="Fashion lookbook" width="400" height="520" loading="lazy" decoding="async" />
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="page-home page-info" aria-labelledby="about-heading">
+      <div class="info-hero reveal">
+        <p class="eyebrow">Our house</p>
+        <h2 id="about-heading" class="info-title">Cloth first. Noise never.</h2>
+        <p class="info-lede">Loom &amp; Line began as a small pattern room obsessed with drape and grain — two collections, one standard: pieces you reach for without thinking, season after season.</p>
+      </div>
+
+      <div class="info-section reveal" aria-labelledby="values-heading">
+        <h3 id="values-heading" class="info-heading">What we care about</h3>
+        <ul class="info-list">
+          <li><strong>Fit you can trust</strong> — block patterns refined over years, not trend cycles.</li>
+          <li><strong>Fabric with a story</strong> — mills we know by name; weights chosen for how they age.</li>
+          <li><strong>Calm shelves</strong> — fewer SKUs, clearer edits, less clutter in your wardrobe.</li>
+        </ul>
+      </div>
+
+      <div class="info-section reveal" id="faq" aria-labelledby="faq-heading">
+        <h3 id="faq-heading" class="info-heading">Questions</h3>
+        <div class="faq">
+          <details class="faq-item">
+            <summary>Do you ship across India?</summary>
+            <p>Yes — see the <a href="#shipping">Shipping</a> section for timelines.</p>
+          </details>
+          <details class="faq-item">
+            <summary>How do I find my size?</summary>
+            <p>Use the <a href="#size">Size guide</a> below. When in doubt, size up for outerwear.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Returns &amp; exchanges</summary>
+            <p>Unworn items with tags may be exchanged within 14 days. Final sale on altered pieces.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section id="size" class="section-block page-home" aria-labelledby="size-heading">
+      <div class="section-block__inner">
+        <h2 id="size-heading" class="section-block__title">Size guide</h2>
+        <p class="section-block__lede">Measurements in inches. Compare to a garment you already own.</p>
+        <div class="table-wrap">
+          <table class="size-table">
+            <thead>
+              <tr>
+                <th>Size</th>
+                <th>Chest</th>
+                <th>Waist</th>
+                <th>Hip</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>XS</td><td>34–36</td><td>28–30</td><td>34–36</td></tr>
+              <tr><td>S</td><td>36–38</td><td>30–32</td><td>36–38</td></tr>
+              <tr><td>M</td><td>38–40</td><td>32–34</td><td>38–40</td></tr>
+              <tr><td>L</td><td>40–42</td><td>34–36</td><td>40–42</td></tr>
+              <tr><td>XL</td><td>42–44</td><td>36–38</td><td>42–44</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="page-home page-info" aria-labelledby="contact-heading">
+      <div class="info-hero reveal">
+        <p class="eyebrow">Say hello</p>
+        <h2 id="contact-heading" class="info-title">Contact us</h2>
+        <p class="info-lede">Orders, sizing, or a quiet question about cloth — we read every note.</p>
+      </div>
+
+      <div class="contact-layout">
+        <div class="contact-card reveal" aria-labelledby="hours-heading">
+          <h3 id="hours-heading" class="contact-card__title">Studio &amp; hours</h3>
+          <p class="contact-card__text">
+            Loom &amp; Line Atelier<br />
+            18, Rue-style Lane, Indiranagar<br />
+            Bengaluru 560038, Karnataka
+          </p>
+          <p class="contact-card__text">
+            <strong>Hours</strong><br />
+            Tue–Sat · 11:00 – 19:00<br />
+            Sun · 12:00 – 17:00 · Mon closed
+          </p>
+          <p class="contact-card__text">
+            <strong>Phone</strong> · <a href="tel:+918000000000">+91 80000 00000</a><br />
+            <strong>Email</strong> · <a href="mailto:hello@loomandline.in">hello@loomandline.in</a>
+          </p>
+        </div>
+
+        <div class="contact-card contact-card--form reveal" aria-labelledby="form-heading">
+          <h3 id="form-heading" class="contact-card__title">Send a message</h3>
+          <p class="form-success" id="contact-success" hidden role="status">Thank you — your message is noted. (Demo: form does not send mail on this static site.)</p>
+          <form class="contact-form" id="contact-form" action="#" method="post" novalidate>
+            <div class="form-row">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" autocomplete="name" required />
+            </div>
+            <div class="form-row">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" autocomplete="email" required />
+            </div>
+            <div class="form-row">
+              <label for="topic">Topic</label>
+              <select id="topic" name="topic">
+                <option value="order">Order &amp; delivery</option>
+                <option value="size">Sizing &amp; fit</option>
+                <option value="return">Returns</option>
+                <option value="other">Something else</option>
+              </select>
+            </div>
+            <div class="form-row">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn-primary">Send message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section id="shipping" class="section-block page-home" aria-labelledby="shipping-heading">
+      <div class="section-block__inner">
+        <h2 id="shipping-heading" class="section-block__title">Shipping &amp; returns</h2>
+        <div class="shipping-grid">
+          <div class="shipping-card reveal">
+            <h3 class="shipping-card__title">Delivery</h3>
+            <p>Metro cities: 3–5 business days. Rest of India: 5–8 days. Tracking sent by SMS and email.</p>
+          </div>
+          <div class="shipping-card reveal">
+            <h3 class="shipping-card__title">Returns</h3>
+            <p>14 days from delivery for unworn items with tags. Initiate from your order email or <a href="#contact">contact</a> us.</p>
+          </div>
+          <div class="shipping-card reveal">
+            <h3 class="shipping-card__title">COD</h3>
+            <p>Available on orders under ₹5,000. Small handling fee may apply at checkout.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#new">New</a>
+        <a href="#mens">Men</a>
+        <a href="#womens">Women</a>
+        <a href="#lookbook">Lookbook</a>
+        <a href="#about">About</a>
+        <a href="#size">Size</a>
+        <a href="#contact">Contact</a>
+        <a href="#shipping">Shipping</a>
+      </div>
+      <p class="footer-tagline">Loom &amp; Line — curated apparel.</p>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
