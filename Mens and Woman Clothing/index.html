@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Loom &amp; Line — Curated Apparel</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body class="page-home">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="logo" href="index.html">Loom <span class="logo-amp">&amp;</span> Line</a>
+    <nav class="nav-main" aria-label="Primary">
+      <a href="mens.html">Men</a>
+      <a href="womens.html">Women</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="mobile-panel" aria-label="Open menu"></button>
+  </header>
+  <div class="mobile-panel" id="mobile-panel" hidden>
+    <nav aria-label="Mobile">
+      <a href="mens.html">Men’s edit</a>
+      <a href="womens.html">Women’s edit</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+
+  <main id="main">
+    <section class="hero-split" aria-label="Choose collection">
+      <a href="mens.html" class="hero-pane hero-pane--mens">
+        <div class="hero-pane__media" role="img" aria-label="Men’s tailoring in deep forest light"></div>
+        <div class="hero-pane__overlay" aria-hidden="true"></div>
+        <div class="hero-pane__inner">
+          <span class="hero-label">Collection</span>
+          <h1 class="hero-title">Men’s</h1>
+          <p class="hero-tagline">Structure, texture, quiet confidence.</p>
+          <span class="hero-cta">Enter the edit <span aria-hidden="true">→</span></span>
+        </div>
+      </a>
+      <a href="womens.html" class="hero-pane hero-pane--womens">
+        <div class="hero-pane__media" role="img" aria-label="Women’s silhouettes in warm slate tones"></div>
+        <div class="hero-pane__overlay" aria-hidden="true"></div>
+        <div class="hero-pane__inner">
+          <span class="hero-label">Collection</span>
+          <h1 class="hero-title">Women’s</h1>
+          <p class="hero-tagline">Silhouette, drape, everyday poetry.</p>
+          <span class="hero-cta">Enter the edit <span aria-hidden="true">→</span></span>
+        </div>
+      </a>
+    </section>
+
+    <section class="intro-band">
+      <p class="intro-text reveal">Two rooms. One house of cloth. Pick a door — the tailoring changes, the obsession with fit does not.</p>
+    </section>
+
+    <section class="home-panels" aria-label="Explore more">
+      <div class="home-panels__grid">
+        <a href="about.html" class="home-panel reveal">
+          <span class="home-panel__label">Story</span>
+          <span class="home-panel__title">About</span>
+          <span class="home-panel__hint">Who we are &amp; FAQ</span>
+        </a>
+        <a href="contact.html" class="home-panel reveal">
+          <span class="home-panel__label">Visit</span>
+          <span class="home-panel__title">Contact</span>
+          <span class="home-panel__hint">Studio hours &amp; message</span>
+        </a>
+        <a href="mens.html" class="home-panel reveal">
+          <span class="home-panel__label">Shop</span>
+          <span class="home-panel__title">Men’s edit</span>
+          <span class="home-panel__hint">Outer, knit, tailored</span>
+        </a>
+        <a href="womens.html" class="home-panel reveal">
+          <span class="home-panel__label">Shop</span>
+          <span class="home-panel__title">Women’s edit</span>
+          <span class="home-panel__hint">Dress, outer, knit</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-links">
+        <a href="mens.html">Men</a>
+        <a href="womens.html">Women</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <p class="footer-tagline">Loom &amp; Line — static showcase. Built for screens of every size.</p>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

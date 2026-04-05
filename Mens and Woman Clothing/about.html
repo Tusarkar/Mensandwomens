@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About — Loom &amp; Line</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body class="page-home page-info">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="logo" href="index.html">Loom <span class="logo-amp">&amp;</span> Line</a>
+    <nav class="nav-main" aria-label="Primary">
+      <a href="mens.html">Men</a>
+      <a href="womens.html">Women</a>
+      <a href="about.html" aria-current="page">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="mobile-panel" aria-label="Open menu"></button>
+  </header>
+  <div class="mobile-panel" id="mobile-panel" hidden>
+    <nav aria-label="Mobile">
+      <a href="index.html">Home</a>
+      <a href="mens.html">Men’s edit</a>
+      <a href="womens.html">Women’s edit</a>
+      <a href="about.html" aria-current="page">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+
+  <main id="main">
+    <section class="info-hero reveal">
+      <p class="eyebrow">Our house</p>
+      <h1 class="info-title">Cloth first. Noise never.</h1>
+      <p class="info-lede">Loom &amp; Line began as a small pattern room obsessed with drape and grain — two collections, one standard: pieces you reach for without thinking, season after season.</p>
+    </section>
+
+    <section class="info-section reveal" aria-labelledby="values-heading">
+      <h2 id="values-heading" class="info-heading">What we care about</h2>
+      <ul class="info-list">
+        <li><strong>Fit you can trust</strong> — block patterns refined over years, not trend cycles.</li>
+        <li><strong>Fabric with a story</strong> — mills we know by name; weights chosen for how they age.</li>
+        <li><strong>Calm shelves</strong> — fewer SKUs, clearer edits, less clutter in your wardrobe.</li>
+      </ul>
+    </section>
+
+    <section class="info-section reveal" id="faq" aria-labelledby="faq-heading">
+      <h2 id="faq-heading" class="info-heading">Questions</h2>
+      <div class="faq">
+        <details class="faq-item">
+          <summary>Do you ship across India?</summary>
+          <p>Yes. Standard and express options are available at checkout on our live store. This static preview is for layout only.</p>
+        </details>
+        <details class="faq-item">
+          <summary>How do I find my size?</summary>
+          <p>Each edit includes a measurement chart. When in doubt, size up for outerwear and down for fine knits — or write us through Contact.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Returns &amp; exchanges</summary>
+          <p>Unworn items with tags may be exchanged within 14 days. Final sale on altered or hemmed pieces.</p>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="mens.html">Men</a>
+        <a href="womens.html">Women</a>
+        <a href="about.html" aria-current="page">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <p class="footer-tagline">Loom &amp; Line — curated apparel.</p>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Men’s Edit — Loom &amp; Line</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body class="page-mens">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="logo" href="index.html">Loom <span class="logo-amp">&amp;</span> Line</a>
+    <nav class="nav-main" aria-label="Primary">
+      <a href="mens.html" aria-current="page">Men</a>
+      <a href="womens.html">Women</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="mobile-panel" aria-label="Open menu"></button>
+  </header>
+  <div class="mobile-panel" id="mobile-panel" hidden>
+    <nav aria-label="Mobile">
+      <a href="index.html">Home</a>
+      <a href="mens.html" aria-current="page">Men’s edit</a>
+      <a href="womens.html">Women’s edit</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+
+  <main id="main">
+    <section class="page-hero page-hero--mens">
+      <div class="page-hero__grid">
+        <div class="page-hero__text">
+          <p class="eyebrow">Men’s edit · SS26</p>
+          <h1 class="page-title">Cut for motion</h1>
+          <p class="lede">Layered neutrals, weight you can feel, lines that hold their own in a crowd — or an empty room.</p>
+        </div>
+        <div class="page-hero__visual">
+          <img class="page-hero__img" src="images/page-mens.jpg" alt="" width="800" height="1000" loading="eager" decoding="async" />
+        </div>
+      </div>
+    </section>
+
+    <div class="sticky-bar">
+      <div class="sticky-bar__inner">
+        <span class="sticky-bar__label">Shop the room</span>
+        <div class="chips">
+          <button type="button" class="chip is-active" data-filter="all">All</button>
+          <button type="button" class="chip" data-filter="outer">Outer</button>
+          <button type="button" class="chip" data-filter="knit">Knit</button>
+          <button type="button" class="chip" data-filter="tailored">Tailored</button>
+        </div>
+      </div>
+    </div>
+
+    <section class="product-grid" aria-label="Men’s pieces">
+      <article class="product-card reveal" data-category="outer">
+        <div class="product-card__media">
+          <img src="images/product-m1.jpg" alt="Brushed wool overcoat" width="600" height="750" loading="lazy" decoding="async" />
+        </div>
+        <div class="product-card__body">
+          <h2 class="product-name">Brushed wool overcoat</h2>
+          <p class="product-meta">Charcoal · Italian cloth</p>
+          <p class="product-price">₹1,459</p>
+        </div>
+      </article>
+      <article class="product-card reveal" data-category="tailored">
+        <div class="product-card__media">
+          <img src="images/product-m2.jpg" alt="Pleated wool trouser" width="600" height="750" loading="lazy" decoding="async" />
+        </div>
+        <div class="product-card__body">
+          <h2 class="product-name">Pleated wool trouser</h2>
+          <p class="product-meta">Midnight · high rise</p>
+          <p class="product-price">₹1,249</p>
+        </div>
+      </article>
+      <article class="product-card product-card--wide reveal" data-category="knit">
+        <div class="product-card__media">
+          <img src="images/product-m3.jpg" alt="Ribbed merino crew" width="900" height="560" loading="lazy" decoding="async" />
+        </div>
+        <div class="product-card__body">
+          <h2 class="product-name">Ribbed merino crew</h2>
+          <p class="product-meta">Oat · seamless shoulder</p>
+          <p class="product-price">₹1,099</p>
+        </div>
+      </article>
+      <article class="product-card reveal" data-category="outer">
+        <div class="product-card__media">
+          <img src="images/product-m4.jpg" alt="Waxed field jacket" width="600" height="750" loading="lazy" decoding="async" />
+        </div>
+        <div class="product-card__body">
+          <h2 class="product-name">Waxed field jacket</h2>
+          <p class="product-meta">Olive · brass hardware</p>
+          <p class="product-price">₹1,399</p>
+        </div>
+      </article>
+      <article class="product-card reveal" data-category="tailored">
+        <div class="product-card__media">
+          <img src="images/product-m5.jpg" alt="Double-breasted blazer" width="600" height="750" loading="lazy" decoding="async" />
+        </div>
+        <div class="product-card__body">
+          <h2 class="product-name">Double-breasted blazer</h2>
+          <p class="product-meta">Navy pinstripe · soft shoulder</p>
+          <p class="product-price">₹1,329</p>
+        </div>
+      </article>
+      <article class="product-card reveal" data-category="knit">
+        <div class="product-card__media">
+          <img src="images/product-m6.jpg" alt="Cashmere zip hoodie" width="600" height="750" loading="lazy" decoding="async" />
+        </div>
+        <div class="product-card__body">
+          <h2 class="product-name">Cashmere zip hoodie</h2>
+          <p class="product-meta">Smoke · matte zip</p>
+          <p class="product-price">₹1,179</p>
+        </div>
+      </article>
+    </section>
+
+    <section class="quote-block reveal">
+      <blockquote>
+        <p>“Good menswear whispers. It doesn’t need a logo to be recognized across the street.”</p>
+        <cite>— In-house line notes</cite>
+      </blockquote>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="mens.html" aria-current="page">Men</a>
+        <a href="womens.html">Women</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <p class="footer-tagline">Men’s edit · Loom &amp; Line</p>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

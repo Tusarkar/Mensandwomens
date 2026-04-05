@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Women’s Edit — Loom &amp; Line</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body class="page-womens">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="logo" href="index.html">Loom <span class="logo-amp">&amp;</span> Line</a>
+    <nav class="nav-main" aria-label="Primary">
+      <a href="mens.html">Men</a>
+      <a href="womens.html" aria-current="page">Women</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="mobile-panel" aria-label="Open menu"></button>
+  </header>
+  <div class="mobile-panel" id="mobile-panel" hidden>
+    <nav aria-label="Mobile">
+      <a href="index.html">Home</a>
+      <a href="mens.html">Men’s edit</a>
+      <a href="womens.html" aria-current="page">Women’s edit</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+
+  <main id="main">
+    <section class="page-hero page-hero--womens">
+      <div class="page-hero__grid page-hero__grid--reverse">
+        <div class="page-hero__visual">
+          <img class="page-hero__img" src="images/page-womens.jpg" alt="" width="800" height="1000" loading="eager" decoding="async" />
+        </div>
+        <div class="page-hero__text">
+          <p class="eyebrow">Women’s edit · SS26</p>
+          <h1 class="page-title">Drape &amp; daylight</h1>
+          <p class="lede">Pieces that catch the sun at the hem and hold a silhouette without shouting — linen, silk, and cotton in conversation.</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="sticky-bar sticky-bar--womens">
+      <div class="sticky-bar__inner">
+        <span class="sticky-bar__label">Shop the room</span>
+        <div class="chips">
+          <button type="button" class="chip is-active" data-filter="all">All</button>
+          <button type="button" class="chip" data-filter="dress">Dress</button>
+          <button type="button" class="chip" data-filter="knit">Knit</button>
+          <button type="button" class="chip" data-filter="outer">Outer</button>
+        </div>
+      </div>
+    </div>
+
+    <section class="product-grid product-grid--womens" aria-label="Women’s pieces">
+      <article class="product-card reveal" data-category="dress">
+        <div class="product-card__media">
+          <img src="images/product-w1.jpg" alt="Bias-cut slip dress" width="600" height="750" loading="lazy" decoding="async" />
+        </div>
+        <div class="product-card__body">
+          <h2 class="product-name">Bias-cut slip dress</h2>
+          <p class="product-meta">Champagne silk · midi</p>
+          <p class="product-price">₹1,429</p>
+        </div>
+      </article>
+      <article class="product-card product-card--tall reveal" data-category="outer">
+        <div class="product-card__media">
+          <img src="images/product-w2.jpg" alt="Linen trench" width="600" height="900" loading="lazy" decoding="async" />
+        </div>
+        <div class="product-card__body">
+          <h2 class="product-name">Linen trench</h2>
+          <p class="product-meta">Sand · storm collar</p>
+          <p class="product-price">₹1,499</p>
+        </div>
+      </article>
+      <article class="product-card reveal" data-category="knit">
+        <div class="product-card__media">
+          <img src="images/product-w3.jpg" alt="Open-knit cardigan" width="600" height="750" loading="lazy" decoding="async" />
+        </div>
+        <div class="product-card__body">
+          <h2 class="product-name">Open-knit cardigan</h2>
+          <p class="product-meta">Ivory · horn buttons</p>
+          <p class="product-price">₹1,189</p>
+        </div>
+      </article>
+      <article class="product-card reveal" data-category="dress">
+        <div class="product-card__media">
+          <img src="images/product-w4.jpg" alt="Pleated poplin shirt dress" width="600" height="750" loading="lazy" decoding="async" />
+        </div>
+        <div class="product-card__body">
+          <h2 class="product-name">Pleated poplin shirt dress</h2>
+          <p class="product-meta">Stripe · belted</p>
+          <p class="product-price">₹1,259</p>
+        </div>
+      </article>
+      <article class="product-card reveal" data-category="knit">
+        <div class="product-card__media">
+          <img src="images/product-w5.jpg" alt="Fine-gauge turtleneck" width="600" height="750" loading="lazy" decoding="async" />
+        </div>
+        <div class="product-card__body">
+          <h2 class="product-name">Fine-gauge turtleneck</h2>
+          <p class="product-meta">Bordeaux · second skin</p>
+          <p class="product-price">₹1,139</p>
+        </div>
+      </article>
+      <article class="product-card product-card--wide reveal" data-category="outer">
+        <div class="product-card__media">
+          <img src="images/product-w6.jpg" alt="Cropped bouclé jacket" width="900" height="560" loading="lazy" decoding="async" />
+        </div>
+        <div class="product-card__body">
+          <h2 class="product-name">Cropped bouclé jacket</h2>
+          <p class="product-meta">Pearl · raw hem</p>
+          <p class="product-price">₹1,369</p>
+        </div>
+      </article>
+    </section>
+
+    <section class="quote-block quote-block--womens reveal">
+      <blockquote>
+        <p>“We design for the walk between meetings and the slow coffee on Sunday — the same garment, different light.”</p>
+        <cite>— Studio journal</cite>
+      </blockquote>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="mens.html">Men</a>
+        <a href="womens.html" aria-current="page">Women</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <p class="footer-tagline">Women’s edit · Loom &amp; Line</p>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

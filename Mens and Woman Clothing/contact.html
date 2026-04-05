@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Loom &amp; Line</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body class="page-home page-info">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="logo" href="index.html">Loom <span class="logo-amp">&amp;</span> Line</a>
+    <nav class="nav-main" aria-label="Primary">
+      <a href="mens.html">Men</a>
+      <a href="womens.html">Women</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+    </nav>
+    <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="mobile-panel" aria-label="Open menu"></button>
+  </header>
+  <div class="mobile-panel" id="mobile-panel" hidden>
+    <nav aria-label="Mobile">
+      <a href="index.html">Home</a>
+      <a href="mens.html">Men’s edit</a>
+      <a href="womens.html">Women’s edit</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+    </nav>
+  </div>
+
+  <main id="main">
+    <section class="info-hero reveal">
+      <p class="eyebrow">Say hello</p>
+      <h1 class="info-title">Contact us</h1>
+      <p class="info-lede">Orders, sizing, or a quiet question about cloth — we read every note.</p>
+    </section>
+
+    <div class="contact-layout">
+      <section class="contact-card reveal" aria-labelledby="hours-heading">
+        <h2 id="hours-heading" class="contact-card__title">Studio &amp; hours</h2>
+        <p class="contact-card__text">
+          Loom &amp; Line Atelier<br />
+          18, Rue-style Lane, Indiranagar<br />
+          Bengaluru 560038, Karnataka
+        </p>
+        <p class="contact-card__text">
+          <strong>Hours</strong><br />
+          Tue–Sat · 11:00 – 19:00<br />
+          Sun · 12:00 – 17:00 · Mon closed
+        </p>
+        <p class="contact-card__text">
+          <strong>Phone</strong> · <a href="tel:+918000000000">+91 80000 00000</a><br />
+          <strong>Email</strong> · <a href="mailto:hello@loomandline.in">hello@loomandline.in</a>
+        </p>
+      </section>
+
+      <section class="contact-card contact-card--form reveal" aria-labelledby="form-heading">
+        <h2 id="form-heading" class="contact-card__title">Send a message</h2>
+        <p class="form-success" id="contact-success" hidden role="status">Thank you — your message is noted. (Demo: form does not send mail on this static site.)</p>
+        <form class="contact-form" id="contact-form" action="#" method="post" novalidate>
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" autocomplete="name" required />
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" autocomplete="email" required />
+          </div>
+          <div class="form-row">
+            <label for="topic">Topic</label>
+            <select id="topic" name="topic">
+              <option value="order">Order &amp; delivery</option>
+              <option value="size">Sizing &amp; fit</option>
+              <option value="return">Returns</option>
+              <option value="other">Something else</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn-primary">Send message</button>
+        </form>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="mens.html">Men</a>
+        <a href="womens.html">Women</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" aria-current="page">Contact</a>
+      </div>
+      <p class="footer-tagline">Loom &amp; Line — curated apparel.</p>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
